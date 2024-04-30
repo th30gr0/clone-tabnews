@@ -1,0 +1,21 @@
+Sobre as aulas:
+
+     - no terminal:
+     a) node -v             ->      retorna a versão do NodeJS
+     b) docker -v           ->      retorna a versão do Docker
+     c) docker-compose -v   ->      retorna a versão do Docker Compose
+     d) nvm -v              ->      retorna a versão do NVM
+
+a) NodeJS: plataforma de desenvolvimento de software (conjunto de ferramentas, bibliotecas, linguagens de programação e outros recursos que facilitam a criação, teste e implantação de software) usada para construir aplicativos de rede (programas projetados para interagir com outros dispositivos/sistemas por meio duma rede, LAN ou internet. Esses aplicativos utilizam a infraestrutura de rede para enviar e receber dados entre diferentes pontos de extremidade, permitindo a comunicação e a colaboração entre usuários, dispositivos ou sistemas distribuídos) escaláveis. Ele é baseado no motor JavaScript V8 do Google Chrome e permite que os desenvolvedores usem JavaScript tanto no frontend quanto no backend de um aplicativo.
+
+b) Docker: plataforma de código aberto projetada para facilitar a criação, implantação e execução de aplicativos em contêineres. Um contêiner é uma unidade de software leve e portátil que inclui tudo o que um aplicativo precisa para ser executado de forma independente, incluindo o código, as bibliotecas, as ferramentas e as configurações do sistema.
+
+c) Docker Compose: ferramenta que facilita a definição e execução de aplicativos Docker compostos por vários contêineres. Ele permite que você defina a configuração de vários serviços, redes e volumes num único arquivo YAML, simplificando o processo de criação e execução de aplicativos complexos que dependem de vários contêineres interagindo entre si.
+
+d) NVM (Node Version Manager):  ferramenta que permite instalar e gerenciar várias versões do Node.js num único sistema. Isso é útil quando você precisa alternar entre diferentes versões do Node.js para diferentes projetos ou para testar a compatibilidade do seu código em versões diferentes. Ele permite facilmente instalar, atualizar e alternar entre versões do Node.js com alguns comandos simples de terminal. Ele também permite que você defina uma versão específica do Node.js como padrão para seu sistema ou para um diretório de projeto específico.
+
+Usando o NVM
+
+No terminal:   nvm ls    ->   retorna as versões do NodeJS disponiveis
+               nvm install lts/hydrogen (versão a ser instalada)
+               nvm alias default lts/hydrogen (manter uma versão como padrão)
